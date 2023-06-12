@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./estadistica.css">
+    <title>Taller practico de javascript-Platzi</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">Taller práctico de javascript</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 
+                24">
+                    <path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 
+                16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+                </svg>
+            </button>
+            <nav class="menu">
+                <a href="./index.html">Inicio</a>
+                <a href="./matematicas.html">Matemáticas</a>
+                <a href="./porcentaje.html">Porcentaje</a>
+                <a href="./estadistica.html">Estadística</a>
+                <a href="./analisisSalarial.html">Análisis salarial</a>
+            </nav>
+        </section>
+    </header>
+    <section class="container-formulas">
+
+        <article class="article rectangulo">
+            <h2 class="title">Estadística Básica</h2>
+            <h3 class="subtitle">Seleccione la opcion</h3>
+            <div class="menu-operacion">
+                <div class="mediana eleccion div-texto">Mediana</div>
+                <div class="promedio-aritmetico eleccion div-texto">Promedio Arítmetico</div>
+                <div class="moda eleccion div-texto">Moda</div>
+                <!--   <div class="promedio-armonico eleccion div-texto">Promedio Armonico</div> -->
+            </div>
+            <div class="calcular">
+                <div class="mas masmenos">+</div>
+                <div class="menos masmenos">-</div>
+                <div class="btn-calcularOperacion">Calcular</div>
+            </div>
+            <div class="datos">
+                <input type="number" placeholder="valor" class="valor-array" value="500">
+                <input type="number" placeholder="valor" class="valor-array" value="400">
+                <input type="number" placeholder="valor" class="valor-array" value="750">
+
+
+            </div>
+
+
+            <div class="result">
+                <span class="figura">Producto con descuento</span>
+                <span class="precioFinal">Resultado</span>
+                <span class="mensaje">Mensaje</span>
+            </div>
+            <button class="btn" id="reset-btn">Resetear</button>
+            <div class="franja"></div>
+        </article>
+
+    </section>
+
+
+    <footer class="footer">
+        <small>Sitio diseñado por HYS.Soluciones</small>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./estadistica.js"></script>
+
+</body>
+
+</html>

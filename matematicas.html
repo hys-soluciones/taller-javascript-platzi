@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./matematicas.css">
+
+    <title>Taller practico de javascript-Platzi</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">Taller práctico de javascript</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 
+                24">
+                    <path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 
+                16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+                </svg>
+            </button>
+            <nav class="menu">
+                <a href="./index.html">Inicio</a>
+                <a href="./matematicas.html">Matemáticas</a>
+                <a href="./porcentaje.html">Porcentaje</a>
+                <a href="./estadistica.html">Estadística</a>
+                <a href="./analisisSalarial.html">Análisis salarial</a>
+            </nav>
+        </section>
+    </header>
+    <section class="container-formulas">
+
+        <article class="article rectangulo">
+            <h2 class="title">Fórmulas matemáticas</h2>
+            <h3 class="subtitle">Calcular Perímetro y área de un Rectangulo</h3>
+            <div class="datos">
+                <input type="number" placeholder="Ingresa la Base" class="rectanguloBase">
+                <input type="number" placeholder="Ingresa la Altura" class="rectanguloAltura">
+            </div>
+
+            <button class="btn">Calcular</button>
+            <div class="result-rectangulo">
+                <span class="figura">Cuadrado y Rectangulo</span>
+                <span class="base"> </span>
+                <span class="altura"> </span>
+                <span class="perimetro"></span>
+                <span class="area"></span>
+                <span class="mensaje"></span>
+            </div>
+            <button class="btn" id="reset-btn">Resetear</button>
+            <div class="franja"></div>
+        </article>
+
+        <article class="article triangulo">
+
+            <h2 class="title">Fórmulas matemáticas</h2>
+            <h3 class="subtitle">Calcular Perímetro y área de un Triangulo</h3>
+            <div class="datos">
+                <input type="number" placeholder="Ingresa la Base" class="trianguloBase">
+                <input type="number" placeholder="Ingresa lado 1" class="lado1">
+                <input type="number" placeholder="Ingresa lado 2" class="lado2">
+            </div>
+
+            <button class="btn btn-triangulo">Calcular</button>
+            <div class="result-rectangulo">
+                <span class="figura">Triangulo</span>
+                <span class="baseTriangulo"></span>
+                <span class="lado1span"></span>
+                <span class="lado2span"></span>
+                <span class="perimetroTriangulo"></span>
+                <span class="areaTriangulo"></span>
+                <span class="mensajeTriangulo"></span>
+
+            </div>
+            <button class="btn" id="reset-btn-triangulo">Resetear</button>
+            <div class="franja"></div>
+
+        </article>
+        <article class="article circulo">
+
+            <h2 class="title">Fórmulas matemáticas</h2>
+            <h3 class="subtitle">Calcular Perímetro y área de un Circulo</h3>
+            <div class="datos">
+                <input type="number" placeholder="Ingresa el radio del circulo" class="radioCirculo">
+
+            </div>
+
+            <button class="btn btn-circulo">Calcular</button>
+            <div class="result-rectangulo">
+                <span class="figura">Circulo</span>
+                <span class="radio"></span>
+                <span class="diametro"></span>
+                <span class="perimetroCirculo"></span>
+                <span class="areaCirculo"></span>
+                <span class="mensajeCirculo"></span>
+
+            </div>
+            <button class="btn" id="reset-btn-circulo">Resetear</button>
+            <div class="franja"></div>
+
+        </article>
+    </section>
+
+
+    <footer class="footer">
+        <small>Sitio diseñado por HYS.Soluciones</small>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./matematicas.js"></script>
+</body>
+
+</html>
