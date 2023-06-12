@@ -4,4 +4,4 @@ Repositorio del taller github-gh-pages
 
 ## Proyecto
 
--[Landing page de tipo gh-pages](https://hys-soluciones.github.io/taller-javascript-platzi/githob-gh-pages)
+-[Landing page de tipo gh-pages](https://hys-soluciones.github.io/taller-javascript-platzi)
